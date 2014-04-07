@@ -32,4 +32,7 @@
 #include "IPartition.h"
 #include "IScheduler.h"
 #include "IFactory.h"
+#include "AlgFactoryMan.h"
+#include "SchFactoryMan.h"
+#include "ParFactoryMan.h"
 #endif

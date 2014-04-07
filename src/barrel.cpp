@@ -14,7 +14,7 @@
 	{
 		return NULL;
 	};
-	void hpgc::Barrel::SetDataSource(char *)
+	void hpgc::Barrel::SetDataSource(const char *)
 	{
 
 	};
@@ -23,12 +23,12 @@
 	{
 		return NULL;
 	};
-	void hpgc::Barrel::SetLayer(char *)
+	void hpgc::Barrel::SetLayer(const char *)
 	{
 
 	};
 
-	void hpgc::Barrel::AddFeature(char *)
+	void hpgc::Barrel::AddFeature(const char *)
 	{
 
 	};

@@ -1,5 +1,6 @@
 #include "hpgc.h"
-
+#include "IGeoAlgorithm.h"
+#include "IData.h"
 class cvct2gdal_Factory:public hpgc::IGeoAlgFactory
 {
 

@@ -1,4 +1,7 @@
 #include "FactoryManager.h"
+#include "AlgFactoryMan.h"
+#include "IGeoAlgFactory.h"
+
 #include "port.h"
 
 #include <algorithm>

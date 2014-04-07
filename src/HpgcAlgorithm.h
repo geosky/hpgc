@@ -4,18 +4,9 @@
 #include "IPartition.h"
 #include "IScheduler.h"
 #include "IData.h"
+#include "IGeoAlgorithm.h"
 
 namespace hpgc { 
-
-class IGeoAlgorithm
-{
-public:
-	virtual Barrel * GetBarrel()=0;
-	virtual void SetBarrel(Barrel*)=0;
-	virtual bool Computing() = 0;
-	virtual void init(int argc, char ** argv)=0;
-	virtual void help()=0;
-};
 
 class HpgcAlgorithm
 {

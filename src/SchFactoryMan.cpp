@@ -1,6 +1,7 @@
 #include "FactoryManager.h"
 #include "port.h"
-
+#include "ISchedulerFactory.h"
+#include "SchFactoryMan.h"
 #include <algorithm>
 
 hpgc::SchFactoryMan * hpgc::SchFactoryMan::m_instance = NULL;

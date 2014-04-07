@@ -1,6 +1,7 @@
 #include "FactoryManager.h"
 #include "port.h"
-
+#include "IPartitionFactory.h"
+#include "ParFactoryMan.h"
 #include <algorithm>
 
 hpgc::ParFactoryMan * hpgc::ParFactoryMan::m_instance = NULL;

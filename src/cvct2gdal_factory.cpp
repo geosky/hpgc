@@ -1,6 +1,8 @@
 #include "hpgc.h"
 #include "cvct2gdal.h"
 #include "HpgcAlgorithm.h"
+#include "IGeoAlgFactory.h"
+#include "IGeoAlgorithm.h"
 
 const char * cvct2gdal_Factory::GetName()
 {
