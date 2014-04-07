@@ -10,7 +10,7 @@ hpgc::Cellar * hpgc::EFC_Partition::Partitioning()
 	//假设数据源只有一个图层,每一千个要素一个桶
 	int TOP=1000;
 	int numBarrels=m_Metadata->GetFeatCount()/TOP+1;
-	int counter=0;
+	unsigned long counter=0;
 
 	hpgc::Cellar * myCeller=new hpgc::Cellar();
 
@@ -25,10 +25,13 @@ hpgc::Cellar * hpgc::EFC_Partition::Partitioning()
 			counter++;
 			if (counter<m_Metadata->GetFeatCount())
 			{
-				pBarrel->AddFeature(std::to_string(counter).c_str());
+				pBarrel->AddFeature("you");//std::to_string(counter).c_str());
+				///> todo 
 			}
 			
 		}
+		myCeller->AddBarrel(pBarrel);
 		
 	}
+	return myCeller;
 };

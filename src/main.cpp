@@ -29,7 +29,7 @@ void main(int argc, char ** argv)
 	for(int i = 1; i < argc; i++)
 		if (EQUAL(argv[i], "-par") && i < argc - 1)
 			if (pstrPartition==NULL)
-				pstrPartition = argv[++i];	
+				pstrPartition = argv[++i];
 			else if (EQUAL(argv[i], "-sch") && i < argc - 1)
 				if(pstrScheduler==NULL)
 					pstrScheduler = argv[++i];
